@@ -12,3 +12,9 @@
 7、使用foundry优化合约GAS  
 8、使用MockV3Aggregator模拟预言机价格，在测试过程中能够模拟和控制预言机返回的数据，而不必依赖真实的 Chainlink 价格预言机  
 9、使用Makefile文件命令行快捷测试部署
+
+# 关于我
+
+github: https://github.com/xiangguanghua  
+email: ixiangguanghua@163.com / vsumgamer@gmail.com  
+wechat: GuanghuaXiang
