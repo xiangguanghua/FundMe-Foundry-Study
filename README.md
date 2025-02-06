@@ -1,66 +1,14 @@
-## Foundry
+# 项目介绍
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+项目名：众筹项目。这是我学习智能合约过程中编写一个学习项目。
+技术项：Solidity + foundry + chainlink
+主要功能点：
+1、使用Chainlink的价格预言机来获取当前的ETH/USD汇率
+2、获取预言机版本号
+3、使用payable方法接受用户投资的ETH
+4、使用payable address提取合约资金
+5、通过网络部署助手HeplerConfig脚本，实现多网络部署
+6、全方位合约测试脚本
+7、使用foundry优化合约GAS
+8、使用MockV3Aggregator模拟预言机价格，在测试过程中能够模拟和控制预言机返回的数据，而不必依赖真实的 Chainlink 价格预言机
+9、使用Makefile文件命令行快捷测试部署
