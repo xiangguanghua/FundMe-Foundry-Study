@@ -29,13 +29,4 @@ contract IntegrationTest is Test {
 
         assertEq(address(fundMe).balance, 0);
     }
-    // function testUserCanFundInteractions() public {
-    //     FundFundMe fundFundMe = new FundFundMe();
-    //     vm.prank(USER);
-    //     vm.deal(USER, 1e18);
-    //     fundFundMe.fundFundMe(address(fundMe));
-
-    //     address funder = fundMe.getFunders(0);
-    //     assertEq(funder, USER);
-    // }
 }
