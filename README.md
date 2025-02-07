@@ -12,6 +12,18 @@
 7、使用foundry优化合约GAS  
 8、使用MockV3Aggregator模拟预言机价格，在测试过程中能够模拟和控制预言机返回的数据，而不必依赖真实的 Chainlink 价格预言机  
 9、使用Makefile文件命令行快捷测试部署
+10、使用Live Server本地服务与Matemask进行钱包交互
+
+# Matemask交互
+
+1、本地启动Anvil环境  
+![alt text](img/image3.png)  
+2、打开简化版功能html功能  
+![alt text](img/image2.png)  
+ 4.下载Live Server插件，部署本地网络  
+![alt text](image4.png)  
+3、交易记录  
+![alt text](img/image.png)
 
 # 关于我
 
