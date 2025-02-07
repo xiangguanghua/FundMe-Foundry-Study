@@ -21,7 +21,7 @@
 2、打开简化版功能html功能  
 ![alt text](img/image2.png)  
  4.下载Live Server插件，部署本地网络  
-![alt text](img/mage4.png)  
+![alt text](img/image4.png)  
 3、交易记录  
 ![alt text](img/image.png)
 
